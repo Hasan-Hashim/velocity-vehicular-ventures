@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classic Muscle Car Ventures</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .nav-logo { height: 60px; }
+        .nav-item a { color: white; }
+        .banner { 
+            background: url('images/carbanner.jpeg') no-repeat center center; 
+            background-size: cover;
+            height: 300px; 
+            position: relative;
+        }
+        .banner-title {
+            position: absolute;
+            right: 10%; /* Adjust to move more to the right */
+            top: 10px;  /* Adjust to move higher */
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            color: white;
+        }
+        footer { 
+            background-color: #333; 
+            color: white; 
+            text-align: center; 
+            padding: 10px 0;
+        }
+        .img-fluid { max-width: 100%; height: auto; }
+        .section-image { margin-top: 20px; }
+        .image-caption { font-size: 0.8rem; text-align: center; }
+        .features { margin-top: 10px; }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/carlogo.jpeg" alt="Classic Muscle Car Ventures Logo" class="nav-logo">
+            </a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="careers.html">Careers</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="banner">
+        <div class="banner-title">Classic Muscle Car Ventures</div>
+    </header>
+
+    <main class="container">
+        <h2>Welcome to Classic Muscle Car Ventures</h2>
+        <p>Specializing in the restoration, maintenance, and sale of classic muscle cars, our passion for performance and dedication to quality craftsmanship ensure every car leaves our lot with power and presence.</p>
+        
+        <!-- Section with image of Ford Mustang -->
+        <div class="section-image">
+            <h3>Ford Mustang</h3>
+            <img src="images/fordmustang.jpeg" alt="Classic Ford Mustang" class="img-fluid">
+            <p class="image-caption">The iconic Ford Mustang, fully restored to its original glory.</p>
+            <div class="features">
+                <p>Features:</p>
+                <ul>
+                    <li>Original V8 engine, fully rebuilt</li>
+                    <li>Classic interior with modern amenities</li>
+                    <li>Pristine bodywork with period-accurate detailing</li>
+                </ul>
+                <p>We offer a wide range of customization options to make your dream car a reality.</p>
+            </div>
+        </div>
+
+        <!-- Section with image of Dodge Challenger -->
+        <div class="section-image">
+            <h3>Dodge Challenger</h3>
+            <img src="images/challenger.jpeg" alt="Classic Dodge Challenger" class="img-fluid">
+            <p class="image-caption">The legendary Dodge Challenger, a true muscle car classic.</p>
+            <div class="features">
+                <p>Features:</p>
+                <ul>
+                    <li>Powerful acceleration with upgraded drivetrain</li>
+                    <li>Authentic muscle car experience with modern handling</li>
+                    <li>Award-winning restoration quality</li>
+                </ul>
+                <p>Our team ensures each car meets stringent quality standards for performance and aesthetics.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Classic Muscle Car Ventures. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
